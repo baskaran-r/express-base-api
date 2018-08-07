@@ -1,0 +1,29 @@
+{
+  "name": "express-base-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=*,-nodemon:*,-express:* nodemon --inspect app.js"
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "latest",
+    "express-validator": "^5.0.3",
+    "helmet": "^3.11.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "morgan": "latest",
+    "mysql": "latest",
+    "npm": "^5.8.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "latest"
+  },
+  "devDependencies": {
+    "debug": "latest"
+  }
+}
